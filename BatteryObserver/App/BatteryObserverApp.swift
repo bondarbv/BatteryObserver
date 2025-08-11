@@ -12,7 +12,7 @@ import SwiftUI
 struct BatteryObserverApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView(viewModel: VMFactory.buildMainVM())
         }
     }
 }
